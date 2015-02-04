@@ -1,0 +1,333 @@
+.home, .about,.contact,.shop{
+	display: inline-block;
+}
+
+.contact, .shop{
+	float: right;
+}
+.logo{
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
+h2{
+	font-size: 36px;
+}
+body{
+	font-family: Montserrat;
+}
+p{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+h4{
+	font-weight: 300;
+	font-family: Raleway;
+	font-size: 22px;	
+}
+.top-nav{
+	position: relative;
+	display: block;
+	width: 100%;
+	z-index: 100;
+	padding-top: 25px;
+	overflow: hidden;
+	height: 85px;
+}
+/*
+.domestic, .international, .allShop{
+	height: 375px;
+
+}
+.domestic{
+	background-image: url("assets/shop1-01.png");
+	background-repeat: no-repeat;
+	background-position: 0px, center;
+}
+.international{
+	background-image: url("assets/shop2-01.png");
+	background-repeat: no-repeat;
+	background-position: 0px, center;
+}
+.allShop{
+	background-image: url("assets/shop3-01.png");
+	background-repeat: no-repeat;
+	background-position: 0px, center;
+}*/
+#vineyard-video{
+	width: 100%;
+	object-fit: contain;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: -1;
+
+	display: block;
+}
+.hero-area{
+	padding-top: 155px;
+	color: white;
+	text-shadow: 0px 0px 7px rgba(80, 80, 80, .5);
+}
+.video-playing{
+	width: 100%;
+	display: inline-block;
+
+}
+.video-background{
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	background-color: rgba(0, 0, 0, .05);
+}
+.second{
+	background-color: gray;
+}
+.hero-image{
+	background-image: url("./assets/barrels.jpg");
+	background-size: cover;
+	background-position: 50%;
+	position: relative;
+	width: 100%;
+	height: 325px;
+
+}
+.basic{
+	width: 35%;
+	height: 250px;
+	background-color: gray;
+}
+.col-row{
+	margin-top: 50px;
+}
+.title-row{
+	margin-top: 55px;
+	margin-bottom: 55px;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	border: 1px gray solid;
+	border-left: none;
+	border-right: none;
+}
+.footer-row{
+	border: 1px gray solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	margin-top: 55px;
+	margin-bottom: 55px;
+	/*padding-top: 45px;*/
+	/*padding-bottom: 45px;*/
+	width: 100%;
+
+}
+.wine-img{
+
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.transparency-img{
+	background-color: gray;
+	width: 100%;
+	height: 500px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+.shop-row{
+	margin-top: 100px;
+	margin-bottom: 55px;
+}
+.infographic-title{
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+.brand-sizing, .gray{
+	background-size: contain;
+	background-image: url("assets/dfwgray.png");
+	background-repeat: no-repeat;
+	height: 80px;
+	width: 250px;
+	z-index: 100;
+}
+.gray{
+	background-image: url("assets/dfwgray.png");
+}
+.inline{
+	display: inline-block;
+}
+
+
+.flex-container{
+  padding: 2% 2% 0;
+  text-align: justify;
+  font-size: 0;
+  background: #68b8c4;
+}
+
+.flex-container:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.flex-container, .flex-item,
+.flex-container, .gap{
+  display: inline-block;
+  width: 34%;
+}
+
+.flex-container, .flex-item{
+  text-align: left;
+  background: #bfbfbf;
+  margin-bottom: 2%;
+  padding: 2%;
+  vertical-align: top;
+  display: none; /*<-- uncomment this rule for use with MixItUp*/
+}
+
+/* Flex box progressive enhancements: */
+
+.flex-container{
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+	-webkit-justify-content: space-between;
+  -webkit-align-content: flex-start;
+}
+
+@media all and (min-width: 420px){
+  .flex-container, .flex-item,
+  .flex-container, .gap{
+    width: 30%;
+  }
+}
+.footer-end{
+	background-color: #9e9ea1;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.basic{
+	width: 100%;
+}
+.big{
+	font-family: Montserrat;
+	font-size: 72px;
+	font-weight: normal;
+}
+.thin{
+	font-family: Raleway;
+	font-size: 28px;
+	font-weight: 300;
+	color: white;
+}
+/*.hero-button{
+	background-image: -webkit-linear-gradient(top,#96999c 0,#464648 100%);
+background-image: -o-linear-gradient(top,#96999c 0,#464648 100%);
+background-image: -webkit-gradient(linear,left top,left bottom,from(#96999c),to(#464648));
+background-image: linear-gradient(to bottom,rgba(150,153,156,.5) 0,#464648 100%);
+border-color: rgba(150,153,156,.0);
+background-color: rgba(150,153,156,.3);
+margin-top: 20px;
+
+}*/
+
+.info-images img{
+	width: 150px;
+	height: 150px;
+}
+.dry-farm-infographic{
+	background: #505050;
+	height: 450px;
+}
+.shop-all, .shop-domestic, .shop-international{
+	height: 100%;
+	min-height: 450px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	font-family: raleway;
+	background-position: top left;
+}
+.shop-all{
+	background-image: url("assets/winebottles.jpg");
+}
+.shop-international{
+	background-image: url("assets/internationalwines.jpg");
+}
+.shop-domestic{
+	background-image: url("assets/domesticimg.jpg");
+}
+.shop-wines{
+	font-family: Montserrat;
+	color: white;
+	display: inline-block;
+	position: relative;
+	width: 360px;
+	margin: 150px;
+	text-shadow: 0px 0px 7px rgba(80, 80, 80, .9);
+
+}
+.new-button{
+	background-color: rgba(255, 255, 255, 0);
+	border: solid 3px white;
+	color: white;
+	text-shadow: rgba(255, 255, 255, .5);
+	font-size: 18px;
+	padding: 10px;
+	margin-top: 20px;
+	font-family: Montserrat;
+	transition: background-color 1.5s, color 1.5s, border 1.5s;
+}
+.new-button:hover, .shop-button:hover{
+	background-color: #505050;
+	color: white;
+}
+.shop-button{
+		background-color: white;
+		color: #505050;
+		font-family: Montserrat;
+		padding: 10px 25px;
+		font-size: 14px;
+		border: none;
+		border: 3px solid #505050;
+		transition: background-color 1.5s, color 1.5s, border 1.5s;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color: rgba(255, 255, 255, 0);
+	color:  #505050;
+	border: 3px solid #bfbfbf;
+	border-radius: 0px;
+	margin-top: -4px;
+	transition: background-color 1.5s, color 1.5s, border 1.5s;
+}
+
+a{
+	color: #505050;
+}
+.wine-selections{
+	position: relative;
+	width: 100%;
+}
+.sort, .filter{
+	margin: 10px;
+	padding: 5px;
+	background-color: rgba(255, 255, 255, 0);
+	border: 3px solid #bfbfbf;
+}
+.sort.active, .filter.active{
+	background-color: #505050;
+	color: white;
+	border: 3px solid #505050;
+} 
+.to-right{
+	float: right;
+}
+
+
