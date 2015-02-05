@@ -34,6 +34,11 @@
 			</div>
 		</div>
 	</div>
+	<div class="back-arrow">
+		<a href="./shop-wine.html">
+			<img class="back-arrow" src="./assets/noun_102123_cc.svg" alt="">
+		</a>
+	</div>
 	<!-- container element for body, 1100px -->
 	<div class="container">
 		<div class="row">
@@ -107,32 +112,45 @@
 			<!-- links to other wine -->
 			<h3>Other Wines you may like</h3>
 			<div class="row ">
-				<div class="col-xs-3">
-					<div class="overlay-text basic">
-						<img src="" alt="">
-					</div>
-				</div>
-				<div class="col-xs-3">
-					<div class="overlay-text basic">
-						<img src="" alt="">
-					</div>
-				</div>
-				<div class="col-xs-3">
-					<div class="overlay-text basic">
-						<img src="" alt="">
-					</div>
-				</div>
-				<div class="col-xs-3">
-					<div class="overlay-text basic">
-						<img src="" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="footer-row">
-			</div>
+				<div id="Container" class:"flex-container">
+					<a href = "./stjoseph.html">
+						<div class="mix filter category-1 flex-item" data-alcpercent="1" data-price="8">
+							<img class="wine-selections"src="./assets/stjoseph.jpg" alt="">
+							<div class="text-center">
+								<h4>Domaine Vincent Paris Saint-Joseph</h4>
+								<h5>Rhone, France</h5>
+								<h5>Price $23 | Alc 12.5%</h5>
+							</div>
+						</div>
+					</a>
 
-		</div>
+					<a href="./Wine-Order-Page.html">
+						<div class="mix filter category-2 flex-item" data-alcpercent="3" data-price="11">
+							<img class= "wine-selections"src="./assets/frogleap13-2pct.jpg" alt="">
+							<div class="text-center">
+								<h4>Frog's Leap Merlot</h4>
+								<h5>Rutherford, CA</h5>
+								<h5>Price $38.50 | Alc 13.2%</h5>
+							</div>
+						</div>
+					</a>
+					<a href = "./patrice.html">
+						<div class="mix filter category-1 flex-item" data-alcpercent="2" data-price="5">
+							<img class="wine-selections" src="./assets/patriceiron.jpg" alt="">
+							<div class="text-center">
+								<h4>Patrice Rion Pinot Noir</h4>
+								<h5>Nuits-Saint-Georges, France</h5>
+								<h5>Price $16.50 | Alc 12.7%</h5>
+							</div>
+						</div>
+					</a>
+					<div class="footer-row">
+					</div>
 
+				</div>
+				<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+				<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+				<script src="app.js"></script>
 
-	</body>
-	</html>
+			</body>
+			</html>

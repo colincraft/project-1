@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wine Order Page</title>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- navbar -->
+	<div class="container-fluid top-nav">
+		<div class="row">
+			<!-- brand image -->
+			<div class="col-xs-2">
+				<a href="./index.html">
+					<div class="navbar-header brand-sizing">
+					</div>
+				</a>
+
+			</div>
+			<!-- nav buttons -->
+			<div class="col-xs-10">
+				<ul class="nav nav-pills pull-right">
+					<li role="presentation"><a href="#">ABOUT</a></li>
+					<li role="presentation"><a href="#">CONTACT</a></li>
+					<li role="presentation" class="active"><a href="./shop-wine.html">SHOP</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="back-arrow">
+		<a href="./shop-wine.html">
+			<img class="back-arrow" src="./assets/noun_102123_cc.svg" alt="">
+		</a>
+	</div>
+	<!-- container element for body, 1100px -->
+	<div class="container">
+		<div class="row">
+			<!-- wine image left -->
+			<div class="col-sm-6 text-center">
+				<img class="wine-img" src="./assets/vieuxpapesbottle.jpg" alt="">
+			</div>
+			<!-- wine sell -->
+			<div class="col-sm-6">
+				<h4>Vieux Papes Rouge</h4>
+				<h5>France</h5>
+				<h5>$11 | Alc. % 12.5</h5>
+
+				Castel Frères is the largest owner and winemaker in Bordeaux, with fourteen different châteaux. This is not, from our perspective, anything to brag about—quantity is rarely related to quality in the wine world. But between all of those vineyards, some of the wines turn out to be truly delicious, such as this classic Old World table wine. It’s unassuming and subtle, with just enough flavor to stand up to food.<br><br>
+				<button type="button" class="shop-button">Buy Now</button>
+			</div>
+		</div>
+		<!-- row below wine image and wine sell -->
+		<div class="row col-row">
+			<div class="col-md-4">
+				<h3>Description</h3>There are three quarters of a century , the first wine brand in France, Vieux Papes, was born. Its success, local First, then developed with the rise of supermarkets in the 70s to meet the requirements of the market and consumers, the evolution of Old Popes, have always been in a real qualitative approach and guided by the constancy of its values ​​. Tradition, Authenticity and friendliness Year after year, Vieux Papes has collected all the success. And with its experience, this pioneering brand still remains the most consumed in France wine.
+
+			</div>
+			<div class="col-xs-4">
+
+
+				<h3>Nutrition Facts</h3>
+				<h5>Serving Size: <small>6 oz.</small></h5>
+				<h5>Calories: <small>185 calories per serving</small></h5>
+				<h5>Total Fat: <small>0g per serving</small></h5>
+				<h5>Total Carbohydrates: <small>18g per serving</small></h5>
+				<h5>Total Sugar: <small>14g per serving</small></h5>
+				<h5>Alcohol %: <small>12.5%</small></h5>
+			</div>
+
+			<div class="col-xs-4">
+				<h3>Shipping Details</h3>
+				<h5>Ground Shipping 5-7 business days<br>
+					<small>$10 bottle</small></h5>
+
+
+				</div>
+			</div>
+			<!-- wine dry farm infographic -->
+			<div class="transparency-img text-center">
+				<img src="./assets/whydryfarm-01.png" alt="">
+			</div>	
+			<div class="footer-row">
+			</div>
+			<!-- links to other wine -->
+			<h3>Other Wines you may like</h3>
+			<div id="Container" class:"flex-container">
+				<a href = "./stjoseph.html">
+					<div class="mix filter category-1 flex-item" data-alcpercent="1" data-price="8">
+						<img class="wine-selections"src="./assets/stjoseph.jpg" alt="">
+						<div class="text-center">
+							<h4>Domaine Vincent Paris Saint-Joseph</h4>
+							<h5>Rhone, France</h5>
+							<h5>Price $23 | Alc 12.5%</h5>
+						</div>
+					</div>
+				</a>
+
+				<a href="./Wine-Order-Page.html">
+					<div class="mix filter category-2 flex-item" data-alcpercent="3" data-price="11">
+						<img class= "wine-selections"src="./assets/frogleap13-2pct.jpg" alt="">
+						<div class="text-center">
+							<h4>Frog's Leap Merlot</h4>
+							<h5>Rutherford, CA</h5>
+							<h5>Price $38.50 | Alc 13.2%</h5>
+						</div>
+					</div>
+				</a>
+				<a href = "./patrice.html">
+					<div class="mix filter category-1 flex-item" data-alcpercent="2" data-price="5">
+						<img class="wine-selections" src="./assets/patriceiron.jpg" alt="">
+						<div class="text-center">
+							<h4>Patrice Rion Pinot Noir</h4>
+							<h5>Nuits-Saint-Georges, France</h5>
+							<h5>Price $16.50 | Alc 12.7%</h5>
+						</div>
+					</div>
+				</a>
+				<div class="footer-row">
+				</div>
+			</div>
+
+			<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+			<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+			<script src="app.js"></script>
+		</body>
+		</html>
