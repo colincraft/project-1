@@ -210,8 +210,8 @@ h4{
 }
 .footer-end{
 	background-color: #9e9ea1;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .basic{
 	width: 100%;
@@ -244,7 +244,10 @@ margin-top: 20px;
 }
 .dry-farm-infographic{
 	background: #505050;
-	height: 450px;
+	height: 100%;
+}
+.dry-farm-infographic>img{
+	width: 700px;
 }
 .shop-all, .shop-domestic, .shop-international{
 	height: 100%;
