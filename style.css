@@ -1,16 +1,4 @@
-.home, .about,.contact,.shop{
-	display: inline-block;
-}
 
-.contact, .shop{
-	float: right;
-}
-.logo{
-	margin: 0 auto;
-	width: 50px;
-	height: 50px;
-	text-align: center;
-}
 h1{
 	text-align: center;
 }
@@ -32,6 +20,22 @@ h4{
 h5{
 	font-size: 16px;
 }
+a{
+	color: #505050;
+}
+.home, .about,.contact,.shop{
+	display: inline-block;
+}
+
+.contact, .shop{
+	float: right;
+}
+.logo{
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
 .top-nav{
 	position: relative;
 	display: block;
@@ -41,26 +45,6 @@ h5{
 	overflow: hidden;
 	height: 85px;
 }
-/*
-.domestic, .international, .allShop{
-	height: 375px;
-
-}
-.domestic{
-	background-image: url("assets/shop1-01.png");
-	background-repeat: no-repeat;
-	background-position: 0px, center;
-}
-.international{
-	background-image: url("assets/shop2-01.png");
-	background-repeat: no-repeat;
-	background-position: 0px, center;
-}
-.allShop{
-	background-image: url("assets/shop3-01.png");
-	background-repeat: no-repeat;
-	background-position: 0px, center;
-}*/
 #vineyard-video{
 	width: 100%;
 	object-fit: contain;
@@ -70,7 +54,6 @@ h5{
 	right: 0;
 	left: 0;
 	z-index: -1;
-
 	display: block;
 }
 .hero-area{
@@ -81,7 +64,6 @@ h5{
 .video-playing{
 	width: 100%;
 	display: inline-block;
-
 }
 .video-background{
 	height: 500px;
@@ -125,13 +107,9 @@ h5{
 	border-bottom: none;
 	margin-top: 55px;
 	margin-bottom: 55px;
-	/*padding-top: 45px;*/
-	/*padding-bottom: 45px;*/
 	width: 100%;
-
 }
 .wine-img{
-
 	height: 400px;
 	margin: 0 auto;
 	position: relative;
@@ -168,27 +146,22 @@ h5{
 .inline{
 	display: inline-block;
 }
-
-
 .flex-container{
   padding: 2% 2% 0;
   text-align: justify;
   font-size: 0;
   background: #68b8c4;
 }
-
 .flex-container:after{
   content: '';
   display: inline-block;
   width: 100%;
 }
-
 .flex-container, .flex-item,
 .flex-container, .gap{
   display: inline-block;
   width: 34%;
 }
-
 .flex-container, .flex-item{
   text-align: left;
   background: #bfbfbf;
@@ -197,21 +170,17 @@ h5{
   vertical-align: top;
   display: none; /*<-- uncomment this rule for use with MixItUp*/
 }
-
 /* Flex box progressive enhancements: */
-
 .flex-container{
   display: -webkit-flex;
   -webkit-flex-flow: row wrap;
 	-webkit-justify-content: space-between;
   -webkit-align-content: flex-start;
 }
-
 @media all and (min-width: 420px){
   .flex-container, .flex-item,
   .flex-container, .gap{
     width: 30%;
-  }
 }
 .footer-end{
 	background-color: #9e9ea1;
@@ -232,17 +201,6 @@ h5{
 	font-weight: 300;
 	color: white;
 }
-/*.hero-button{
-	background-image: -webkit-linear-gradient(top,#96999c 0,#464648 100%);
-background-image: -o-linear-gradient(top,#96999c 0,#464648 100%);
-background-image: -webkit-gradient(linear,left top,left bottom,from(#96999c),to(#464648));
-background-image: linear-gradient(to bottom,rgba(150,153,156,.5) 0,#464648 100%);
-border-color: rgba(150,153,156,.0);
-background-color: rgba(150,153,156,.3);
-margin-top: 20px;
-
-}*/
-
 .info-images img{
 	width: 150px;
 	height: 150px;
@@ -280,7 +238,6 @@ margin-top: 20px;
 	width: 360px;
 	margin: 150px;
 	text-shadow: 0px 0px 7px rgba(80, 80, 80, .9);
-
 }
 .new-button{
 	background-color: rgba(255, 255, 255, 0);
@@ -315,10 +272,6 @@ margin-top: 20px;
 	margin-top: -4px;
 	transition: background-color 1.5s, color 1.5s, border 1.5s;
 }
-
-a{
-	color: #505050;
-}
 .wine-selections{
 	position: relative;
 	width: 100%;
@@ -339,5 +292,13 @@ a{
 .to-right{
 	float: right;
 }
-
-
+a:hover{
+	color: #bfbfbf;
+}
+.nav>li>a{
+	transition: background-color 1.5s, color 1.5s ;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: #505050;
+	color: white;
+}

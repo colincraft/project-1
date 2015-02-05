@@ -14,15 +14,16 @@
 <body>
 <div class="container-fluid top-nav">
 <div class="row">
+<!-- navbar brand image -->
 <div class="col-xs-2">
 <a href="./index.html">
 <div class="navbar-header brand-sizing">
 </div>
 </a>
 </div>
+<!-- navbar buttons -->
 <div class="col-xs-10">
 <ul class="nav nav-pills pull-right">
-
 <li role="presentation"><a href="#">ABOUT</a></li>
 <li role="presentation"><a href="#">CONTACT</a></li>
 <li role="presentation" class="active"><a href="./shop-wine.html">SHOP</a></li>
@@ -30,7 +31,7 @@
 </div>
 </div>
 </div>
-
+<!-- container for body 1100px -->
 <div class="container" >
 <div class="hero-image">
 <img src="" alt="">
@@ -42,6 +43,7 @@
 <div class="sorting">
 <div class="row">
 <div class="col-sm-6">
+<!-- sort by buttons -->
 <h3 class="inline">Sort by:</h3>
 <div>
 <button class="sort" data-sort="alcpercent:asc">Alc. % Low to High</button>
@@ -50,6 +52,7 @@
 <button class="sort" data-sort="price:asc">Price Low to High</button>
 </div>
 </div>
+<!-- filter by buttons -->
 <div class="col-sm-6">
 <h3 class="inline">Filter by:</h3>
 <div>
@@ -59,6 +62,16 @@
 </div>
 </div>
 </div>
+
+
+<!-- begin flex box and mixingfy. must use flex box  
+
+SORT BY = catgeory-1 = international ines, category-2 = domestic wines, data-alcpercent= alc percent, 10 being the highest 1 being the lowest, data-price = price, 10 being the highest 1 being the lowest.
+
+FILTER BY= all, default, show's all, category-1 = international wines, category-2 = domestic wines.
+
+***MUST USE mix CLASS FOR MIXINGFY TO WORK, flex  -->
+
 <div id="Container" class:"flex-container">
 <!-- <div class="mix filter category-1 flex-item" data-alcpercent="1" data-price="10">
 <img src="" alt="">
